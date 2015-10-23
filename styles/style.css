@@ -1,21 +1,16 @@
-header {
-  text-align: center;
-  width: 75%;
-  margin: auto;
+header img {
+  width: 33%;
 }
-
-article {
-  width: 60%;
-  margin: auto;
+/* more specific takes prcedence*/
+nav a {
+  text-decoration: line-through;
+}a {
+  text-decoration: none;
 }
-h1:hover {
-  color: red;
+/*more recent takes precedence */
+p {
+  color: magenta;
 }
-footer {
-  border: 2px solid magenta;
-  border-radius: 25px;
-}
-a:visited {text-decoration: none;}
-p::first-letter {
-  font-size: 1.5em;
+P {
+  color: orange;
 }
